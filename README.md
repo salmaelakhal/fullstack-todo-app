@@ -46,7 +46,7 @@ root
 ### 1️⃣ Clone the repository
 
 ```
-git clone https://github.com/YOUR_USERNAME/fullstack-todo-app.git
+git clone https://github.com/salmaelakhal/fullstack-todo-app.git
 ```
 
 ### 2️⃣ Backend Setup
@@ -59,8 +59,8 @@ npm install
 Create a `.env` file:
 
 ```
-PORT=5000
-DATABASE_URL=your_postgresql_connection_string
+PORT=4000
+
 ```
 
 Start server:
@@ -78,6 +78,15 @@ cd client
 npm install
 npm run dev
 ```
+
+Create a `.env` file:
+
+```
+DB_USER=postgres
+DB_PASSWORD=111111
+DB_HOST=localhost
+DB_PORT=5432
+DB_NAME=todo_db
 
 ---
 
